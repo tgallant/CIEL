@@ -1,4 +1,4 @@
-FROM fukamachi/sbcl:2.3.8 AS build
+FROM fukamachi/sbcl:2.5.10 AS build
 
 WORKDIR /home
 
