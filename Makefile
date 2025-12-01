@@ -10,7 +10,7 @@ define git-clone-pull =
 if test -d $(QLDIR)/$(notdir $1); then cd $(QLDIR)/$(notdir $1) && git pull; else git clone $1 $(QLDIR)/$(notdir $1); fi
 endef
 
-MISC_EXTENSIONS_HEALTHY_COMMIT=7af1c37c725fa32cf74c69a4bdafa00d1b79a1ca
+MISC_EXTENSIONS_HEALTHY_COMMIT=9d0fd15a855cec2654b7c95e97b148011163c4da
 
 $(QLDIR)/misc-extensions:
 	mkdir -p $(QLDIR)
